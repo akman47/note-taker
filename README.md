@@ -10,20 +10,20 @@ As a small business owner, I want to be able to write and save notes so that I c
 * HTML
 * CSS
 * JavaScript
-* Express.js
 * Node.js
 
 ## Application
-[Note Taker Application Link](https://.herokuapp.com)
+[Note Taker Application Link](https://afternoon-temple-41959.herokuapp.com/)
 
 ## Snapshot
 ![Snapshot of the note taker application](./assets/images/note-taker.png)
 
 ## Packages
 * Jest
+* Express
+* UniqueId
 
 ## Tests
-* Used Jest to test
 * Run <code>npm test</code>
 
 ## Criteria

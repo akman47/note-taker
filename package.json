@@ -4,7 +4,7 @@
   "description": "## Description An application that saves and retrieves note data created by the user",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node server.js"
   },
   "author": "",
@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/akman47/note-taker/issues"
   },
-  "homepage": "https://github.com/akman47/note-taker#readme"
+  "homepage": "https://github.com/akman47/note-taker#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
 }

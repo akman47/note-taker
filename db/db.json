@@ -2,21 +2,28 @@
   "notes": [
     {
       "title": "Test Title",
-      "text": "Test text"
+      "text": "Test text",
+      "id": "156"
     },
     {
-      "title": "Title",
-      "text": "text2"
+      "title": "New Note",
+      "text": "New Text",
+      "id": "529"
     },
     {
-      "title": "Hello",
-      "text": "Good night",
-      "id": "yweejwipq506b6vr0xd1"
+      "title": "Test Delete",
+      "text": "delete text",
+      "id": "308"
     },
     {
-      "title": "New ID test",
-      "text": "Only Numbers",
-      "id": "418"
+      "title": "Delete This",
+      "text": "bye",
+      "id": "473"
+    },
+    {
+      "title": "Delete Me",
+      "text": "aa",
+      "id": "625"
     }
   ]
 }
