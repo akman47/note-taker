@@ -1,9 +1,11 @@
 const router = require("express").Router();
-const { notes } = require("../../db/db");
-const { createNewNote, validateNote, getNoteById, deleteNote } = require("../../lib/notes");
+//const { notes } = require("../../db/db");
+const { createNewNote, validateNote, getNoteById, deleteNote, readNote } = require("../../lib/notes");
 const generateUniqueId = require("generate-unique-id");
 
 router.get('/notes', (req, res) => {
+    const notes = readNote();
+    console.log(notes);
     res.json(notes);
 });
 
@@ -31,13 +33,17 @@ router.post('/notes', (req, res) => {
         res.status(400).send("The note is missing a title or message.")
     }
     else {
+        let notes = readNote();
         const note = createNewNote(req.body, notes);
         res.json(note);
     }
 });
 
 router.delete("/notes/:id", (req, res) => {
+    let notes = readNote();
     const result = deleteNote(req.params.id, notes);
+
+    //console.log(result);
     res.json(result);
 });
 
