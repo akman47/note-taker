@@ -24,7 +24,7 @@ As a small business owner, I want to be able to write and save notes so that I c
 * UniqueId
 
 ## Tests
-* Run <code>npm test</code>
+* Run <code>npm test</code> to test note functions in note.js
 
 ## Criteria
 GIVEN a note-taking application
